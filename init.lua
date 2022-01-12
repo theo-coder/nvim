@@ -16,3 +16,8 @@ require("user.project")
 require("user.impatient")
 require("user.indentline")
 require("user.alpha")
+require("user.whichkey")
+require("user.autocommands")
+
+-- TEST
+--require("user.saveasadmin").prompt_saa()

@@ -56,6 +56,10 @@ return packer.startup(function(use)
     use("lukas-reineke/indent-blankline.nvim")
     use("goolord/alpha-nvim")
     use("antoinemadec/FixCursorHold.nvim")
+    use("folke/which-key.nvim")
+    
+    -- Save as admin 
+    use("theo-coder/nvim-saa")
 
 	-- Colorschemes
 	use("lunarvim/colorschemes") -- A bunch of colorschemes you can try out

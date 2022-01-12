@@ -184,6 +184,11 @@ _G.packer_plugins = {
     path = "/home/theo/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
+  ["nvim-saa"] = {
+    loaded = true,
+    path = "/home/theo/.local/share/nvim/site/pack/packer/start/nvim-saa",
+    url = "https://github.com/theo-coder/nvim-saa"
+  },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "/home/theo/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
@@ -248,6 +253,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/theo/.local/share/nvim/site/pack/packer/start/vim-bbye",
     url = "https://github.com/moll/vim-bbye"
+  },
+  ["which-key.nvim"] = {
+    loaded = true,
+    path = "/home/theo/.local/share/nvim/site/pack/packer/start/which-key.nvim",
+    url = "https://github.com/folke/which-key.nvim"
   }
 }
 
