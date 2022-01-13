@@ -4,3 +4,6 @@ if not status_ok then
 end
 
 saa.setup()
+
+vim.cmd([[ cnoreabbrev w Saa ]])
+vim.cmd([[ cnoreabbrev wq SaaQ ]])

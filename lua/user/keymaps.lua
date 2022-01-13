@@ -78,6 +78,3 @@ keymap("n", "<c-t>", "<cmd>Telescope live_grep<cr>", opts)
 -- Buffer --
 keymap("n", "<C-w>", "<cmd>Bdelete<cr>", opts)
 
--- Saa --
-vim.cmd([[ cnoreabbrev w Saa ]])
-vim.cmd([[ cnoreabbrev wq SaaQ ]])
