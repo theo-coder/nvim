@@ -18,6 +18,4 @@ require("user.indentline")
 require("user.alpha")
 require("user.whichkey")
 require("user.autocommands")
-
--- TEST
---require("user.saveasadmin").prompt_saa()
+require("user.saa")
