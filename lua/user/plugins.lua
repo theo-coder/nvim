@@ -57,14 +57,17 @@ return packer.startup(function(use)
     use("goolord/alpha-nvim")
     use("antoinemadec/FixCursorHold.nvim")
     use("folke/which-key.nvim")
-    
-    -- Save as admin 
+    use("norcalli/nvim-colorizer.lua")
+
+    -- Save as admin
     use("theo-coder/nvim-saa")
 
 	-- Colorschemes
-	use("lunarvim/colorschemes") -- A bunch of colorschemes you can try out
+	--use("lunarvim/colorschemes") -- A bunch of colorschemes you can try out
+	--use("lunarvim/darkplus.nvim")
 	use("rmehri01/onenord.nvim") -- The theme I actually uses
-	use("lunarvim/darkplus.nvim")
+    use("theo-coder/thebesttheme.nvim") -- Theme in development
+
 
 	-- CMP plugins
 	use("hrsh7th/nvim-cmp") -- The completion plugin
